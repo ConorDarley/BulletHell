@@ -22,7 +22,7 @@
     <timeline>timelines\tm_testLevel</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
