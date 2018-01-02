@@ -9,6 +9,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_bulcol</sprite>
+    <sprite>sprites\spr_red</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,9 +19,11 @@
     <object>objects\obj_player_bullet</object>
     <object>objects\obj_enemy</object>
     <object>objects\con_spawner</object>
+    <object>objects\obj_red</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tm_testLevel</timeline>
+    <timeline>timelines\tm_heal</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

@@ -19,9 +19,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>e = instance_create(1080/3, 960, obj_enemy);
-e.type = 1;
-e.firing_speed = 20;
+            <string>red_screen = instance_create(0,0,obj_red);
 </string>
           </argument>
         </arguments>
@@ -29,7 +27,7 @@ e.firing_speed = 20;
     </event>
   </entry>
   <entry>
-    <step>30</step>
+    <step>120</step>
     <event>
       <action>
         <libid>1</libid>
@@ -47,38 +45,8 @@ e.firing_speed = 20;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>e = instance_create((1080/3)*2, 960, obj_enemy);
-e.type = 2;
-e.firing_speed = 4;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-  </entry>
-  <entry>
-    <step>60</step>
-    <event>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>e = instance_create((1080/2), (1920/3), obj_enemy);
-e.type = 3;
-e.firing_speed = 4;
-e.speed = 10
+            <string>obj_player.player_health += 1;
+instance_destroy(red_screen);
 </string>
           </argument>
         </arguments>
