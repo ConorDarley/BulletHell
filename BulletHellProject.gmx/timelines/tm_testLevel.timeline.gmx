@@ -49,7 +49,7 @@ e.firing_speed = 20;
             <kind>1</kind>
             <string>e = instance_create((1080/3)*2, 960, obj_enemy);
 e.type = 2;
-e.firing_speed = 4;
+e.firing_speed = 20;
 </string>
           </argument>
         </arguments>
@@ -77,8 +77,8 @@ e.firing_speed = 4;
             <kind>1</kind>
             <string>e = instance_create((1080/2), (1920/3), obj_enemy);
 e.type = 3;
-e.firing_speed = 4;
-e.speed = 10
+e.firing_speed = 20;
+e.speed = 10;
 </string>
           </argument>
         </arguments>

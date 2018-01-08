@@ -113,6 +113,7 @@ if y &gt; 1920 - player_h/2 {
     y = 1920 - player_h/2
 }
 
+/****
 if player_health &lt;= 0 {
    instance_destroy();
 }
@@ -123,6 +124,7 @@ if player_health &lt;= 1.5 {
    timeline_running = true;
    timeline_loop = false;
 }
+****/
 </string>
           </argument>
         </arguments>
